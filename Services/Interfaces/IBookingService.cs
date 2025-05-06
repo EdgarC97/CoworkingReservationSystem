@@ -3,7 +3,7 @@ using CoworkingReservationSystem.Models.DTOs.Responses;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CoworkingReservationSystem.Interfaces.Services
+namespace CoworkingReservationSystem.Services.Interfaces
 {
     public interface IBookingService
     {

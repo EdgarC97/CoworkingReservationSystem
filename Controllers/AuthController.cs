@@ -1,5 +1,5 @@
-﻿using CoworkingReservationSystem.Services.Interfaces;
-using CoworkingReservationSystem.Models.DTOs.Requests;
+﻿using CoworkingReservationSystem.Models.DTOs.Requests;
+using CoworkingReservationSystem.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoworkingReservationSystem.Controllers

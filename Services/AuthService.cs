@@ -1,8 +1,8 @@
 ﻿using CoworkingReservationSystem.Models.DTOs.Requests;
 using CoworkingReservationSystem.Models.DTOs.Responses;
+using CoworkingReservationSystem.Models;
 using CoworkingReservationSystem.Repositories.Interfaces;
 using CoworkingReservationSystem.Services.Interfaces;
-using CoworkingReservationSystem.Models;
 using CoworkingReservationSystem.Utils;
 
 namespace CoworkingReservationSystem.Services

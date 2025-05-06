@@ -1,4 +1,4 @@
-﻿using CoworkingReservationSystem.Interfaces.Services;
+﻿using CoworkingReservationSystem.Services.Interfaces;
 using CoworkingReservationSystem.Models.DTOs.Responses;
 using CoworkingReservationSystem.Models;
 using CoworkingReservationSystem.Repositories.Interfaces;

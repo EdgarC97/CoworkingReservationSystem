@@ -1,7 +1,7 @@
 ﻿using CoworkingReservationSystem.Models.DTOs.Responses;
 using CoworkingReservationSystem.Models;
 
-namespace CoworkingReservationSystem.Interfaces.Services
+namespace CoworkingReservationSystem.Services.Interfaces
 {
     public interface IAuditService
     {
