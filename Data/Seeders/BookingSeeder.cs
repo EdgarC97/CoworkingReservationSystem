@@ -45,6 +45,7 @@ namespace CoworkingReservationSystem.Data.Seeders
                     StartTime = currentDate.AddHours(9),
                     EndTime = currentDate.AddHours(11),
                     Status = BookingStatus.Confirmed,
+                    CancellationReason = "", // Add empty string instead of null
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 });
@@ -57,6 +58,7 @@ namespace CoworkingReservationSystem.Data.Seeders
                     StartTime = currentDate.AddHours(14),
                     EndTime = currentDate.AddHours(16),
                     Status = BookingStatus.Confirmed,
+                    CancellationReason = "", // Add empty string instead of null
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 });
@@ -69,6 +71,7 @@ namespace CoworkingReservationSystem.Data.Seeders
                     StartTime = currentDate.AddHours(17),
                     EndTime = currentDate.AddHours(18),
                     Status = BookingStatus.Confirmed,
+                    CancellationReason = "", // Add empty string instead of null
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 });

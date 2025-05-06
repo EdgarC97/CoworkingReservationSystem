@@ -21,7 +21,8 @@ namespace CoworkingReservationSystem.Data.Configurations
                 .HasConversion<string>();
 
             builder.Property(b => b.CancellationReason)
-                .HasMaxLength(500);
+                .HasMaxLength(500)
+                .IsRequired(false); // Change to not required
 
             builder.Property(b => b.CreatedAt)
                 .IsRequired();

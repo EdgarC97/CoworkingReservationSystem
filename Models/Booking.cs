@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CoworkingReservationSystem.Models
+﻿namespace CoworkingReservationSystem.Models
 {
     public enum BookingStatus
     {
@@ -18,7 +16,7 @@ namespace CoworkingReservationSystem.Models
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public BookingStatus Status { get; set; }
-        public string CancellationReason { get; set; }
+        public string? CancellationReason { get; set; } // Make nullable
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 

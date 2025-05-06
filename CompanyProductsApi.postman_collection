@@ -37,6 +37,19 @@
         },
         {
           "name": "Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "if (pm.response.code === 200 && pm.response.json().token) {",
+                  "    pm.environment.set(\"token\", pm.response.json().token);",
+                  "}"
+                ]
+              }
+            }
+          ],
           "request": {
             "method": "POST",
             "header": [
@@ -461,7 +474,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "https://localhost:7001",
+      "value": "http://localhost:5030",
       "type": "string"
     }
   ]

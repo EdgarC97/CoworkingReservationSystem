@@ -54,10 +54,15 @@ builder.Services.AddScoped<IAuditService, AuditService>();
 builder.Services.AddSingleton<JwtService>();
 
 // Add seeders
+builder.Services.AddScoped<UserSeeder>();
+builder.Services.AddScoped<RoomSeeder>();
+builder.Services.AddScoped<BookingSeeder>();
+builder.Services.AddScoped<DatabaseSeeder>();
+
+// Also register them as ISeeder for any code that needs all seeders
 builder.Services.AddScoped<ISeeder, UserSeeder>();
 builder.Services.AddScoped<ISeeder, RoomSeeder>();
 builder.Services.AddScoped<ISeeder, BookingSeeder>();
-builder.Services.AddScoped<DatabaseSeeder>();
 
 // Configure JWT authentication
 builder.Services.AddAuthentication(options =>

@@ -22,6 +22,12 @@ namespace CoworkingReservationSystem.Data.Configurations
                 .IsRequired()
                 .HasConversion<string>();
 
+            builder.Property(a => a.OldValues)
+                .IsRequired(false);
+
+            builder.Property(a => a.NewValues)
+                .IsRequired(false);
+
             builder.Property(a => a.Timestamp)
                 .IsRequired();
 

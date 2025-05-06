@@ -74,7 +74,7 @@ namespace CoworkingReservationSystem.Services
                 "User",
                 user.Id.ToString(),
                 AuditAction.Login,
-                null,
+                "",
                 $"User logged in: {user.Email}"
             );
 

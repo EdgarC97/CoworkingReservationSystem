@@ -1,7 +1,7 @@
-﻿using CoworkingReservationSystem.Services.Interfaces;
+﻿using CoworkingReservationSystem.Models;
 using CoworkingReservationSystem.Models.DTOs.Responses;
-using CoworkingReservationSystem.Models;
 using CoworkingReservationSystem.Repositories.Interfaces;
+using CoworkingReservationSystem.Services.Interfaces;
 
 namespace CoworkingReservationSystem.Services
 {
@@ -24,8 +24,8 @@ namespace CoworkingReservationSystem.Services
                 EntityName = entityName,
                 EntityId = entityId,
                 Action = action,
-                OldValues = oldValues,
-                NewValues = newValues,
+                OldValues = oldValues ?? "", // Usar cadena vacía si oldValues es null
+                NewValues = newValues ?? "", // Usar cadena vacía si newValues es null
                 Timestamp = DateTime.UtcNow
             };
 
