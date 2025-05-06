@@ -1,5 +1,5 @@
-﻿using CoworkingReservationSystem.DTOs.Requests;
-using CoworkingReservationSystem.DTOs.Responses;
+﻿using CoworkingReservationSystem.Models.DTOs.Requests;
+using CoworkingReservationSystem.Models.DTOs.Responses;
 
 namespace CoworkingReservationSystem.Services.Interfaces
 {

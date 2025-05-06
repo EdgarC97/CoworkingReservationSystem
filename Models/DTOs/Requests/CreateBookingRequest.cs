@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CoworkingReservationSystem.DTOs.Requests
+﻿namespace CoworkingReservationSystem.Models.DTOs.Requests
 {
     public class CreateBookingRequest
     {

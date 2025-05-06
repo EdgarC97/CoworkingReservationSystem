@@ -1,7 +1,5 @@
-﻿using CoworkingReservationSystem.DTOs.Responses;
+﻿using CoworkingReservationSystem.Models.DTOs.Responses;
 using CoworkingReservationSystem.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace CoworkingReservationSystem.Interfaces.Services
 {

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
+﻿using CoworkingReservationSystem.Models.DTOs.Responses;
+
+using Microsoft.AspNetCore.Identity.Data;
 
 namespace CoworkingReservationSystem.Services.Interfaces
 {

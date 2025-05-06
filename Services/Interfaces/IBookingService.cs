@@ -1,5 +1,5 @@
-﻿using CoworkingReservationSystem.DTOs.Requests;
-using CoworkingReservationSystem.DTOs.Responses;
+﻿using CoworkingReservationSystem.Models.DTOs.Requests;
+using CoworkingReservationSystem.Models.DTOs.Responses;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

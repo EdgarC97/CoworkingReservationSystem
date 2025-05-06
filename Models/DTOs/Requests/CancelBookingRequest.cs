@@ -1,4 +1,4 @@
-﻿namespace CoworkingReservationSystem.DTOs.Requests
+﻿namespace CoworkingReservationSystem.Models.DTOs.Requests
 {
     public class CancelBookingRequest
     {
