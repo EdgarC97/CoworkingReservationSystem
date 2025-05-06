@@ -1,0 +1,6 @@
+@CoworkingReservationSystem_HostAddress = http://localhost:5030
+
+GET {{CoworkingReservationSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
